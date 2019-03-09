@@ -2,12 +2,12 @@
 
 module.exports = {
   url: 'https://mauricioserna.com',
-  title: 'Blog by Mauricio Serna',
+  title: 'Blog by Mauricio Serna F.',
   subtitle: 'Excited about distributed systems and software architecture 🚀',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'mauriciosernaf',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-83221503-1',
   menu: [
     {
       label: 'Articles',
@@ -19,7 +19,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Mauricio Serna',
+    name: 'Mauricio Serna Flórez',
     photo: '/photo.jpg',
     bio: 'Excited about distributed systems, software architecture, React 🚀',
     contacts: {
