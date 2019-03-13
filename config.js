@@ -1,27 +1,27 @@
 'use strict';
 
 module.exports = {
-  url: 'https://mauricioserna.com',
-  title: 'Blog by Mauricio Serna F.',
-  subtitle: 'Excited about distributed systems and software architecture 🚀',
-  copyright: '© All rights reserved.',
+  url: 'https://es.mauricioserna.com',
+  title: 'Blog realizado por Mauricio Serna F.',
+  subtitle: 'Apasionado de los sistemas distribuidos, arquitectura de software, React 🚀',
+  copyright: '© Todos los derechos reservados.',
   disqusShortname: 'mauriciosernaf',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-83221503-1',
   menu: [
     {
-      label: 'Articles',
+      label: 'Articulos',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'Acerca de mi',
       path: '/pages/about'
     }
   ],
   author: {
     name: 'Mauricio Serna Flórez',
     photo: '/photo.jpg',
-    bio: 'Excited about distributed systems, software architecture, React 🚀',
+    bio: 'Apasionado de los sistemas distribuidos, arquitectura de software, React 🚀',
     contacts: {
       email: 'mauricioserf@gmail.com',
       twitter: 'fmauricios',
