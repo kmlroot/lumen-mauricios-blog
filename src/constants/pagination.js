@@ -1,6 +1,6 @@
 const PAGINATION = {
-  PREV_PAGE: 'Prev',
-  NEXT_PAGE: 'Next'
+  PREV_PAGE: 'Ant',
+  NEXT_PAGE: 'Sig'
 };
 
 export default PAGINATION;
