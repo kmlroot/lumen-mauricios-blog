@@ -3,11 +3,11 @@ title: Conceptos Básicos de Elixir
 date: "2019-03-09"
 template: "post"
 draft: false
-slug: "/posts/conceptos-basicos-de-elixir/"
+slug: "/articulos/conceptos-basicos-de-elixir/"
 category: "Elixir"
 tags:
   - "Elixir"
-  - "FP"
+  - "Programación funcional"
 description: "Elixir es un lenguaje funcional, dinámico y compilado que nos brinda características tales como escalabilidad, capacidad de desarrollar aplicaciones mantenibles y distribuidas."
 ---
 

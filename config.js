@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       label: 'Acerca de mi',
-      path: '/pages/about'
+      path: '/paginas/acerca'
     }
   ],
   author: {

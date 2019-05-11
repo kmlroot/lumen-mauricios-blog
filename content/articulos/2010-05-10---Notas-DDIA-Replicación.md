@@ -1,12 +1,12 @@
 ---
-title: Notas Designing data-intensive application - Replicación
+title: Notas Designing data-intensive application, Replicación
 date: "2019-05-10"
 template: "post"
 draft: false
-slug: "/posts/notas-ddia-replication/"
-category: "Distributed systems"
+slug: "/articulos/notas-ddia-replicacion/"
+category: "Sistemas distribuidos"
 tags:
-  - "Distributed systems"
+  - "Sistemas distribuidos"
   - "Replicación"
 description: "Este artículo es un resumen del cápitulo 5 del libro Designing data-intensive application, este capítulo nos habla acerca de la replicación."
 ---
