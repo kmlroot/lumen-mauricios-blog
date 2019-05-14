@@ -71,7 +71,7 @@ Una desventaja de la replicación multi-lider es que los datos pueden ser modifi
 - Topología en estrella: Funciona igual que la topología circular.
 - Topología todos con todos: Cada lider envía sus escrituras a todos los otros lideres
 
-![Toplogías en replicación multi-lider](http://masutangu.com/assets/images/data-intensive-note-2/illustration-1.png)
+![Toplogías en replicación multi-lider](https://camo.githubusercontent.com/c14455023cdcb84765ff0f3eb2debf04f367b269/687474703a2f2f6d61737574616e67752e636f6d2f6173736574732f696d616765732f646174612d696e74656e736976652d6e6f74652d322f696c6c757374726174696f6e2d312e706e67)
 
 En las topologías circular y en estrella si un nodo falla este fallo puede interrumpir el flujo de replicación de mensajes.
 
