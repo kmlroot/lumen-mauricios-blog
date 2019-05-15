@@ -11,7 +11,7 @@ tags:
 description: "Este artículo es un resumen del cápitulo 5 del libro Designing data-intensive application, este capítulo nos habla acerca de la replicación."
 ---
 
-Replicación quiere decir que podemos tener una copia de los datos en muchas máquinas, el autor nos habla de 3 algoritmos para replicación de cambios entre nodos: un solo líder, multi-líder y sin lider.
+Replicación quiere decir que podemos tener una copia de los datos en muchas máquinas y así darnos ventajas como alta disponibilidad, latencia, escalabilidad; en este capitulo el autor nos habla de 3 algoritmos para replicación de cambios entre nodos: un solo líder, multi-líder y sin lider.
 
 ## Lideres y seguidores
 
@@ -77,6 +77,12 @@ En las topologías circular y en estrella si un nodo falla este fallo puede inte
 
 ## Replicación sin lider 
 
-En la replicación sin lider no se fuerza a tener un order particular en las escrituras, estas se pueden enviar a varios nodos y también leer de varios nodos, como si lo hace la replicación de un solo lider. Algunos motores de bases de datos como Riak, Cassandra y Voldemort usan la replicación sin lider, todos ellos inspirados en [Dynamo](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
+En la replicación sin lider no se fuerza a tener un order particular en las escrituras, estas se pueden enviar a varios nodos y también leer de varios nodos. Algunos motores de bases de datos como Riak, Cassandra y Voldemort usan la replicación sin lider, todos ellos inspirados en [Dynamo](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf)
 
-- **Quorum para leer y escribir**: Si tenemos *n* replicas cada escritura deberá ser confirmada por *w* nodos para ser considerada exitosa y al menos *r* nodos para cada lectura, es decir, *w + r > n*, los valores *w* y *r* son llamados quorum, podemos ver a *r* y *w* como el número mínimo de votos que se requiren para que una escritura y una lectura sean válidas.
+- **Quorum para leer y escribir**: Si tenemos *n* replicas cada escritura deberá ser confirmada por *w* nodos para ser considerada exitosa y al menos *r* nodos para cada lectura, es decir, `w + r > n`, los valores *w* y *r* son llamados quorum, podemos ver a *r* y *w* como el número mínimo de votos que se requiren para que una escritura y una lectura sean válidas.
+
+La replicación sin lider al igual que la replicación multi-lider también es adecuada para operaciones en multiples *datacenters*, ya que soporta escrituras concurrentes, interrupciones en la red, picos en la latencia, Cassandra implementa su soporte de multiples datacenters con este tipo de replicación.
+
+### Detectando escrituras concurrentes
+
+- **Last write wins**: Cada replica va a almacenar solo el valor más reciente y va a permitir que los valores más antiguos sean sobreescritos o descartados, esto ayuda a alcanzar una convergencia eventual pero a costa de durabilidad en el sistema, si la perdida de data no es aceptable para tu sistema el método de *last write wins* no es el adecuado.
