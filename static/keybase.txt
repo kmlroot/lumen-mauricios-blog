@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/fmauricios
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mauricioserna.com
+  * I am fmauricios (https://keybase.io/fmauricios) on keybase.
+  * I have a public key ASDOT2gq1Z7tEBc39SOPs8OXmfGUE04k6bL169JYFOnIQQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ce4f682ad59eed101737f5238fb3c39799f194134e24e9b2f5ebd25814e9c8410a",
+      "host": "keybase.io",
+      "kid": "0120ce4f682ad59eed101737f5238fb3c39799f194134e24e9b2f5ebd25814e9c8410a",
+      "uid": "428f6a052d564baeea22cd9671b17f19",
+      "username": "fmauricios"
+    },
+    "merkle_root": {
+      "ctime": 1564669928,
+      "hash": "a2a444b4872ba0598b0713c307a83a2e1cf042753470f38a86c0863f00a0d53d0513b0fa7a567f4e3754f163b6f915db926167795e3dff02957d9f2c54f29ba3",
+      "hash_meta": "a3967c314d12fa5b28761d587e98e23625bdfa1667200a5aeaba59e77493687e",
+      "seqno": 5908314
+    },
+    "service": {
+      "entropy": "/i46HsJUBce1exyjHu/+neN+",
+      "hostname": "mauricioserna.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1564669939,
+  "expire_in": 504576000,
+  "prev": "c9b693cc218127edb88ebda4cf3015aea1def647bc9eaaedae8cda48d52001c0",
+  "seqno": 68,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzk9oKtWe7RAXN/Ujj7PDl5nxlBNOJOmy9evSWBTpyEEKp3BheWxvYWTESpcCRMQgybaTzCGBJ+24jr2kzzAVrqHe9ke8nqrtrozaSNUgAcDEIGlghuBzB4GHglJ/fiDhu9o2siwoBYbI9Thwpl7pyHECAgHCo3NpZ8RAcFP+gCMVhf4UUZ7+SkVAqvutdW7qXG8BQp5lFmtfBo1vuHg8URDWaScQEAEqiTGDp9n9N6k3StlVUl4I2+q4DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDfAQ1+wn/HXydSa8nOMzq30FmDJ78PSBv0xGGkJ+vtAo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fmauricios
+
+==================================================================
