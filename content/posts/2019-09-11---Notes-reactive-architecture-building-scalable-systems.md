@@ -1,5 +1,5 @@
 ---
-title: Introduction to Hyperledger Fabric
+title: Reactive Architecture Building Scalable Systems Notes
 date: "2019-09-11"
 template: "post"
 draft: false
@@ -7,7 +7,7 @@ slug: "/posts/notes-reactive-architecture-building-scalable-systems/"
 category: "reactive"
 tags:
   - "Reactive Systems"
-description: "Notes: Reactive Architecture: Building Scalable Systems."
+description: "A serie of notes from Reactive Architecture: Building Scalable Systems course by Lightben"
 ---
 
 ## Consistency, availability, and scalability
