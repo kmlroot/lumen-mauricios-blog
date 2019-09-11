@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://mauricioserna.com',
   title: 'Blog by Mauricio Serna F.',
-  subtitle: 'Excited about distributed systems 🚀',
+  subtitle: 'Excited about distributed systems.',
   copyright: '© All rights reserved.',
   disqusShortname: 'mauriciosernaf',
   postsPerPage: 4,
