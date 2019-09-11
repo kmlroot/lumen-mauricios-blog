@@ -7,7 +7,7 @@ slug: "/posts/notes-reactive-architecture-building-scalable-systems/"
 category: "reactive"
 tags:
   - "Reactive Systems"
-description: "A serie of notes from Reactive Architecture: Building Scalable Systems course by Lightben"
+description: "A serie of notes from Reactive Architecture: Building Scalable Systems course by Lightbend"
 ---
 
 ## Consistency, availability, and scalability
