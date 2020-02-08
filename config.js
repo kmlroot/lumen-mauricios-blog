@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://es.mauricioserna.com',
   title: 'Blog realizado por Mauricio Serna F.',
   subtitle:
-    'Apasionado de los mecanismos de consenso, p2p, fp & sistemas reactivos 🚀',
+    'Apasionado de los sistemas distribuidos, mecanismos de consenso, p2p 🚀',
   copyright: '© Todos los derechos reservados.',
   disqusShortname: 'mauriciosernaf',
   postsPerPage: 4,
@@ -23,7 +23,7 @@ module.exports = {
     name: 'Mauricio Serna Flórez',
     photo: '/photo.jpg',
     bio:
-      'Apasionado de los mecanismos de consenso, p2p, fp & sistemas reactivos 🚀',
+      'Apasionado de los sistemas distribuidos, mecanismos de consenso, p2p 🚀',
     contacts: {
       email: 'mauricioserf@gmail.com',
       twitter: 'fmauricios',
