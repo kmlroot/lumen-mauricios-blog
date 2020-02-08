@@ -19,7 +19,7 @@ En Hyperledger Fabric contamos con 5 componentes principales: orderer, peer, ca,
 - Peer: Este componente es el encargado de guardar todas las transacciones y el estado de la blockchain, además en este componente es donde instalamos el famoso _smart contract_ que en Hyperledger Fabric se conoce como _chaincode_
 - CA: Es una entidad certificadora que se encarga de emitir certificados a la red para que cada uno de los componentes y usuarios puedan ser identificados, como requisito esta entidad certificadora debe emitir certificados de Curva Elíptica (ECDSA)
 - Chaincode: Es la lógica de negocio. El _chaincode_ debe ser lo más simple posible, actualmente podemos escribirlo en lenguajes/plataformas más "comunes" tales como: Go, Node.js, Java
-- SDK: El SDK va a ser le encargado de conectarse a los peers y ejecutar las funciones que están en el _chaincode_ también puede tener funciones como leer los eventos que están pasando en la red
+- SDK: El SDK va a ser el encargado de conectarse a los peers y ejecutar las funciones que están en el _chaincode_ también puede tener funciones como leer los eventos que están pasando en la red
 
 Todos los componentes de la red son contenedores de Docker y los puedes encontrar en [DockerHub](https://hub.docker.com/u/hyperledger), lo más común es desarrollar el SDK en Node.js y el _chaincode_ en Golang, esto porque son las dos librerías que más funcionalidades tienen (fabric-sdk-node & fabric-chaincode-go respectivamente) y más activamente se desarrollan en la comunidad.
 
