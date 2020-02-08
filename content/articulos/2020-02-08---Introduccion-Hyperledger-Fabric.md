@@ -25,7 +25,7 @@ Todos los componentes de la red son contenedores de Docker y los puedes encontra
 
 En la siguiente imagen tenemos una arquitectura muy simple de una red de Blockchain entre dos organizaciones; en la imagen solo contamos un peer por organización, pero lo ideal siempre es tener más de uno, los peers siempre están hablando entre ellos por medio del _gossip protocol_ si uno de los peers muere cuando creemos otro el se va a actualizar con toda la copia de las transacciones.
 
-![Hyperledger Fabric Architecture](https://user-images.githubusercontent.com/8335556/74088708-35079e00-4a67-11ea-818c-66941969c63f.png)
+![Hyperledger Fabric Architecture](https://user-images.githubusercontent.com/8335556/74089509-c844d180-4a6f-11ea-87e4-4f4eabe61c27.png)
 
 Las dos organizaciones en este caso se comunican por medio de su orderer, hay otra forma complementaria a esta y es por medio de algo llamado los _anchor peers_ que los detallaremos en otra oportunidad.
 
